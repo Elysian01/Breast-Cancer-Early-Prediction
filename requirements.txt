@@ -53,7 +53,9 @@ numba==0.48.0
 numpy==1.18.1
 
 
-apt-get install libsm6 libxext6 libxrender-dev
+libsm6 
+libxext6 
+libxrender-dev
 
 opencv-python==4.2.0.32
 pandas==1.0.2
