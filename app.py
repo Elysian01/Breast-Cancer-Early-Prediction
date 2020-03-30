@@ -43,15 +43,23 @@ def BreastCancer():
                 location = os.path.join("Received_Files", f.filename)
                 f.save(location)
                 print("File Saved !")
+                PDFFilename = f.filename
                 if extension == ".pdf":
                     PdfConverter.Convert(f.filename)
                     image = name + ".png"
                     prediction = CancerModel.Predict(
                         os.path.join("Received_Files", image))
+
                 else:
                     prediction = CancerModel.Predict(
                         os.path.join("Received_Files", f.filename))
+
+                for root, dirs, files in os.walk("Received_Files"):
+                    for file in files:
+                        os.remove(os.path.join(root, file))
+
                 print(prediction)
+
                 if prediction:
                     return render_template("Infected.htm", disease="Breast Cancer ")
                 else:
