@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn breast_cancer_ep:app

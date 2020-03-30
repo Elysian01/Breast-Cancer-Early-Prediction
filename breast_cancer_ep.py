@@ -31,7 +31,6 @@ def Download():
     return send_file(file, as_attachment=True)
 
 
-@app.route("/home", methods=["POST", "GET"])
 @app.route("/", methods=["POST", "GET"])
 def BreastCancer():
     if request.method == "POST":
@@ -78,4 +77,4 @@ def BreastCancer():
 
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True, host="0.0.0.0", port=5000)
+    app.run()
