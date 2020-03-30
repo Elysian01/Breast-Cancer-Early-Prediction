@@ -53,15 +53,12 @@ numba==0.48.0
 numpy==1.18.1
 
 
-libsm6 
-libxext6 
-libxrender-dev
 
 opencv-python==4.2.0.32
 pandas==1.0.2
 parso==0.6.2
 pdf2image==1.12.1
-
+PDPbox==0.2.0
 pickleshare==0.7.5
 Pillow==7.0.0
 
