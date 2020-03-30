@@ -51,6 +51,10 @@ mock==4.0.1
 
 numba==0.48.0
 numpy==1.18.1
+
+
+apt-get install -y libsm6 libxext6 libxrender-dev
+
 opencv-python==4.2.0.32
 pandas==1.0.2
 parso==0.6.2
