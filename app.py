@@ -31,7 +31,8 @@ def Download():
     return send_file(file, as_attachment=True)
 
 
-@app.route("/BreastCancer", methods=["POST", "GET"])
+@app.route("/home", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])
 def BreastCancer():
     if request.method == "POST":
         f = request.files['inputFile']
@@ -73,7 +74,7 @@ def BreastCancer():
             flash("Please Upload Only Valid Files ")
         except PDFPageCountError:
             flash("Please Upload Only Valid Files , or try again later")
-    return render_template("BreastCancer.html", title="Breast Cancer", navTitle="Breast Cancer", headText="Breast Cancer Probability Detector", ImagePath="/static/BreastCancer.jpg")
+    return render_template("BreastCancer.html", title="Breast Cancer", navTitle="Breast Cancer", headText="Breast Cancer Early Detection", ImagePath="/static/BreastCancer.jpg")
 
 
 if __name__ == '__main__':
