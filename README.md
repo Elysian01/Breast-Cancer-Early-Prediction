@@ -16,9 +16,9 @@
 ## To Test Our Application
 
 #### Download all the necessary modules in python 3.6 environmnet
-'''python
+```python 
 pip install -r requirements.txt
-'''
+```
 
 #### To run application
 ```python 
