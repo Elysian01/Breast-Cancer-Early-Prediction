@@ -18,7 +18,7 @@
 #### Download all the necessary modules in python 3.6 environmnet
 '''python
 pip install -r requirements.txt
-''''
+'''
 
 #### To run application
 ```python 
