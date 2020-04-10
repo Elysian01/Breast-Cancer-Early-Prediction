@@ -1,9 +1,7 @@
 # Breast-Cancer-Early-Prediction
 
-<hr>
 ### This model is built to identify women suffering from breast cancer in its early period .
 
-<hr>
 ## Website Frontend
 <img src="Frontend.png" alt="#" width="800" height="500">
 
