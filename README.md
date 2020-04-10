@@ -5,7 +5,7 @@
 ## Website Frontend
 <img src="Frontend.png" alt="#" width="800" height="500">
 
-## Steps to be followed 
+## Steps to be Followed 
 
 * For the ease of the user instead of filling the fields of 25+ symptoms manually , we have implemented text detection in this model. 
 
