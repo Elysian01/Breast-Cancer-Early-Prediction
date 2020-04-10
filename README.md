@@ -24,4 +24,4 @@ pip install -r requirements.txt
 ```python 
 python app.py
 ```
-#### Follows above steps to test the application
+#### Follow above steps to test the application
